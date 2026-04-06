@@ -6,7 +6,7 @@ export function createApp(): Express {
 
   app.get('/hello', (req, res) => {
     const name = (req.query.name as string) || '世界';
-    res.json({ message: `こんにちは、${name}!` });
+    res.json({ message: `Hi, ${name}!` });
   });
 
   app.get('/health', (_req, res) => {
