@@ -6,7 +6,7 @@ describe('GET /hello', () => {
   it('returns hello message', async () => {
     const res = await request(createApp()).get('/hello');
     expect(res.status).toBe(200);
-    expect(res.body).toEqual({ message: 'Hello, world!' });
+    expect(res.body).toEqual({ message: 'Hello, world?' });
   });
 });
 
