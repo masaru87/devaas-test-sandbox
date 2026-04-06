@@ -5,7 +5,7 @@ export function createApp(): Express {
   app.use(express.json());
 
   app.get('/hello', (_req, res) => {
-    res.json({ message: 'Hello, world!' });
+    res.json({ message: 'Hello, world.' });
   });
 
   app.get('/health', (_req, res) => {

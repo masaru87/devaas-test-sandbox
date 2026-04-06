@@ -23,7 +23,7 @@ tests/
 
 ## エンドポイント
 
-- `GET /hello` → `{ message: "Hello, world!" }`
+- `GET /hello` → `{ message: "Hello, world." }`
 - `GET /health` → `{ status: "ok" }`
 
 ## 開発ルール
